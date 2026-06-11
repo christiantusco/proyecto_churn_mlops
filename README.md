@@ -31,7 +31,7 @@ docker build -t churn-api-christian .
 ### 2. Ejecutar el contenedor
 
 ```bash
-docker run -d -p 8000:8000 --name churn-contenedor churn-api-perez
+docker run -d -p 8000:8000 --name churn-contenedor churn-api-christian
 ```
 
 ### 3. Probar la API
