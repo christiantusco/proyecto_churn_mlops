@@ -5,7 +5,7 @@ echo "============================================"
 
 echo ""
 echo "[1/4] Construyendo imagen Docker..."
-docker build -t churn-api-perez .
+docker build -t churn-api-tusco .
 
 echo ""
 echo "[2/4] Deteniendo contenedor anterior (si existe)..."
@@ -14,7 +14,7 @@ docker rm churn-contenedor 2>/dev/null
 
 echo ""
 echo "[3/4] Ejecutando contenedor..."
-docker run -d -p 8000:8000 --name churn-contenedor churn-api-perez
+docker run -d -p 8000:8000 --name churn-contenedor churn-api-tusco
 
 echo ""
 echo "[4/4] Listando contenedores activos..."
