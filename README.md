@@ -41,7 +41,7 @@ Abrir en el navegador: http://localhost:8000
 ### 4. Ver contenedores activos
 
 ```bash
-docker ps
+docker ps 
 ```
 
 ### 5. Detener el contenedor
