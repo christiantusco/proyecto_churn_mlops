@@ -25,7 +25,7 @@ proyecto_churn_mlops/
 ### 1. Construir la imagen
 
 ```bash
-docker build -t churn-api-perez .
+docker build -t churn-api-christian .
 ```
 
 ### 2. Ejecutar el contenedor
