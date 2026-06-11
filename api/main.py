@@ -7,7 +7,7 @@ def inicio():
     return {
         "mensaje": "Servicio ML-Ops activo",
         "estado": "ok",
-        "autor": "Juan Perez"
+        "autor": "Christian Tusco"
     }
 
 @app.get("/health")

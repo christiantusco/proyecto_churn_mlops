@@ -25,13 +25,13 @@ proyecto_churn_mlops/
 ### 1. Construir la imagen
 
 ```bash
-docker build -t churn-api-perez .
+docker build -t churn-api-tusco .
 ```
 
 ### 2. Ejecutar el contenedor
 
 ```bash
-docker run -d -p 8000:8000 --name churn-contenedor churn-api-perez
+docker run -d -p 8000:8000 --name churn-contenedor-tusco churn-api-tusco
 ```
 
 ### 3. Probar la API
@@ -47,6 +47,6 @@ docker ps
 ### 5. Detener el contenedor
 
 ```bash
-docker stop churn-contenedor
-docker rm churn-contenedor
+docker stop churn-contenedor-tusco
+docker rm churn-contenedor-tusco
 ```
