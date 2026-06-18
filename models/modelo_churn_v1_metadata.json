@@ -1,0 +1,23 @@
+{
+  "modelo": "modelo_churn_v1",
+  "version": "1.0",
+  "autor": "Christian Tusco",
+  "fecha_entrenamiento": "2026-06-18T12:27:47.727300",
+  "algoritmo": "RandomForestClassifier",
+  "n_estimadores": 100,
+  "variables": [
+    "edad",
+    "meses_contrato",
+    "llamadas_soporte",
+    "saldo_promedio",
+    "productos_contratados"
+  ],
+  "n_muestras_entrenamiento": 800,
+  "n_muestras_prueba": 200,
+  "metricas": {
+    "accuracy": 0.665,
+    "f1_score": 0.3964,
+    "precision": 0.449,
+    "recall": 0.3548
+  }
+}
