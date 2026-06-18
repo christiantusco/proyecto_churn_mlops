@@ -1,6 +1,10 @@
 # 1. Imagen base de Python
 FROM python:3.10-slim
 
+LABEL author="Christian Tusco"
+LABEL version="1.0"
+LABEL description="API predictiva de churn - ML-Ops"
+
 # 2. Directorio de trabajo dentro del contenedor
 WORKDIR /app
 
