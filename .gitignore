@@ -1,11 +1,44 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Cache de Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+
+# Variables de entorno y credenciales
 .env
-venv/
-.venv/
+.env.*
+credentials.json
+secrets.json
+
+# Distribucion y build
 *.egg-info/
 dist/
 build/
-.DS_Store
+
+# Jupyter
 *.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Datos sensibles o temporales
+*.tmp
+*.bak
